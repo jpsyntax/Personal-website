@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="landingpage.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">JPSYNTAX<span class="dot">.</span></a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="signin.html" class="nav-cta">Sign In</a>
+        <button class="hamburger" aria-label="Toggle menu">&#9776;</button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg-blob blob1"></div>
+      <div class="hero-bg-blob blob2"></div>
+      <div class="hero-content">
+        <span class="badge">Frontend Web Developer</span>
+        <h1 class="hero-title">
+          Building Interfaces <br />
+          <em>People Love</em> to Use
+        </h1>
+        <p class="hero-sub">
+          I craft clean, responsive, and visually compelling web experiences —
+          from landing pages to full web applications.
+        </p>
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">See My Services</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-card">
+          <div class="code-card-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="file-name">index.html</span>
+          </div>
+          <pre
+            class="code-block"
+          ><span class="c-tag">&lt;section</span> <span class="c-attr">class</span>=<span class="c-str">"hero"</span><span class="c-tag">&gt;</span>
+  <span class="c-tag">&lt;h1&gt;</span><span class="c-text">Hello, World</span><span class="c-tag">&lt;/h1&gt;</span>
+  <span class="c-tag">&lt;p&gt;</span><span class="c-text">Let's build something</span>
+    <span class="c-text">amazing together.</span><span class="c-tag">&lt;/p&gt;</span>
+  <span class="c-tag">&lt;a</span> <span class="c-attr">href</span>=<span class="c-str">"#contact"</span><span class="c-tag">&gt;</span>
+    <span class="c-text">Start a project</span>
+  <span class="c-tag">&lt;/a&gt;</span>
+<span class="c-tag">&lt;/section&gt;</span></pre>
+        </div>
+        <div class="stat-pill pill1">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-pill pill2">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrap">
+            <div class="about-image-placeholder">
+              <span
+                ><img src="photo_2026-03-14_12-07-56.jpg" alt="page logo"
+              /></span>
+            </div>
+            <div class="about-accent-box"></div>
+          </div>
+          <div class="about-text">
+            <span class="section-label">About Me</span>
+            <h2 class="section-title">
+              Turning Ideas Into <em>Digital Reality</em>
+            </h2>
+            <p>
+              Hi, I'm <strong>JPSYNTAX</strong> — a passionate frontend
+              developer specializing in building modern, accessible, and
+              high-performance web experiences. I focus on clean code,
+              pixel-perfect design, and delivering products that users actually
+              enjoy.
+            </p>
+            <p>
+              Whether you're a startup looking for your first website or an
+              established brand wanting to refresh your digital presence, I'm
+              here to help you stand out.
+            </p>
+            <a
+              href="#contact"
+              class="btn btn-primary"
+              style="margin-top: 24px; display: inline-block"
+              >Work With Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">What I Do</span>
+          <h2 class="section-title">Services I Offer</h2>
+          <p class="section-desc">
+            From concept to deployment — I handle every layer of the frontend.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="4"
+                  y="10"
+                  width="40"
+                  height="28"
+                  rx="4"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path d="M4 18h40" stroke="currentColor" stroke-width="2.5" />
+                <circle cx="12" cy="14" r="2" fill="currentColor" />
+                <circle cx="19" cy="14" r="2" fill="currentColor" />
+                <path
+                  d="M16 28l-4 4 4 4M32 28l4 4-4 4M22 34l4-8"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Responsive Web Development</h3>
+            <p>
+              Pixel-perfect, mobile-first websites that look great on every
+              screen size using HTML, CSS, and JavaScript.
+            </p>
+            <span class="service-tag">HTML · CSS · JS</span>
+          </div>
+
+          <div class="service-card service-card--featured">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="6"
+                  y="6"
+                  width="36"
+                  height="36"
+                  rx="4"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="12"
+                  y="18"
+                  width="10"
+                  height="12"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="26"
+                  y="14"
+                  width="10"
+                  height="8"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M12 34h24"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Thoughtful, user-centered interface designs that balance beauty
+              with functionality — from wireframe to final UI.
+            </p>
+            <span class="service-tag">Figma · Prototyping</span>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 40V30a16 16 0 0 1 32 0v10"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <rect
+                  x="4"
+                  y="34"
+                  width="8"
+                  height="10"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="36"
+                  y="34"
+                  width="8"
+                  height="10"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <circle
+                  cx="24"
+                  cy="18"
+                  r="4"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </div>
+            <h3>Landing Pages</h3>
+            <p>
+              High-converting, beautifully crafted landing pages designed to
+              capture attention and drive action.
+            </p>
+            <span class="service-tag">Conversion-Focused</span>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="4"
+                  y="8"
+                  width="40"
+                  height="32"
+                  rx="4"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M4 16h40M14 8v8M34 8v8"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <rect
+                  x="10"
+                  y="22"
+                  width="12"
+                  height="10"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M28 24h8M28 29h6"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Web App Interfaces</h3>
+            <p>
+              Complex, interactive web application UIs — dashboards, portals,
+              and data-rich interfaces built to scale.
+            </p>
+            <span class="service-tag">React · Components</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / PORTFOLIO TEASER -->
+    <section class="work" id="work">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Recent Work</h2>
+          <p class="section-desc">A few things I've built recently.</p>
+        </div>
+        <div class="work-grid">
+          <div class="work-card">
+            <div class="work-thumb work-thumb--1">
+              <span>Project Preview</span>
+            </div>
+            <div class="work-info">
+              <h4>E-Commerce Dashboard</h4>
+              <p>
+                Admin panel with analytics, responsive tables, and dark mode.
+              </p>
+              <span class="work-stack">React · CSS · Chart.js</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="work-thumb work-thumb--2">
+              <span>Project Preview</span>
+            </div>
+            <div class="work-info">
+              <h4>SaaS Landing Page</h4>
+              <p>
+                Marketing landing page with animated hero and pricing section.
+              </p>
+              <span class="work-stack">HTML · CSS · JS</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="work-thumb work-thumb--3">
+              <span>Project Preview</span>
+            </div>
+            <div class="work-info">
+              <h4>Portfolio Website</h4>
+              <p>
+                Personal portfolio with smooth scroll animations and project
+                showcase.
+              </p>
+              <span class="work-stack">HTML · SCSS · GSAP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Ready to build something <em>great</em>?</h2>
+        <p>
+          Let's turn your vision into a fast, beautiful, and functional website.
+        </p>
+        <a href="index.html" class="btn btn-white">Create an Account</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-desc">
+            Have a project in mind? Send me a message and I'll get back to you
+            within 24 hours.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">jpsyntax@yahoo.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Owerri, Imo State, Nigeria</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" method="post" action="#">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-name">Name</label>
+                <input
+                  id="c-name"
+                  type="text"
+                  placeholder="John Doe"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="c-email">Email</label>
+                <input
+                  id="c-email"
+                  type="email"
+                  placeholder="john@example.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c-subject">Subject</label>
+              <input
+                id="c-subject"
+                type="text"
+                placeholder="Project inquiry"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="c-message">Message</label>
+              <textarea
+                id="c-message"
+                placeholder="Tell me about your project..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a href="#" class="nav-logo">JPSYNTAX<span class="dot">.</span></a>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="signin.html">Sign In</a>
+          <a href="index.html">Sign Up</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scroll for nav links
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        a.addEventListener("click", (e) => {
+          const target = document.querySelector(a.getAttribute("href"));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // Navbar scroll shadow
+      window.addEventListener("scroll", () => {
+        document
+          .querySelector(".navbar")
+          .classList.toggle("scrolled", window.scrollY > 20);
+      });
+
+      // Hamburger menu
+      const ham = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      ham.addEventListener("click", () => navLinks.classList.toggle("open"));
+
+      // Fade-in on scroll
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      document
+        .querySelectorAll(
+          ".service-card, .work-card, .about-grid, .contact-grid",
+        )
+        .forEach((el) => {
+          el.classList.add("fade-up");
+          observer.observe(el);
+        });
+    </script>
+  </body>
+</html>

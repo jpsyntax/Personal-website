@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="4Sign-in.css" />
+  </head>
+  <body>
+    <form method="post" action="your-login-api">
+      <h2>LOGIN</h2>
+      <p class="subtitle">
+        Don't have an account? <a href="1Create-Acct.html">Sign up</a>
+      </p>
+
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        name="username"
+        placeholder="johndoe@example.com"
+        required
+      />
+
+      <label for="user-password">Password</label>
+      <input
+        id="user-password"
+        type="password"
+        name="password"
+        placeholder="Min. 8 Characters"
+        minlength="8"
+        required
+      />
+
+      <button type="submit">Login</button>
+
+      <div class="form-footer">
+        <a href="5Forget-Passowrd.html">Forgot password?</a>
+      </div>
+    </form>
+  </body>
+</html>
